@@ -1,0 +1,7 @@
+require('options')
+require('bindings')
+require('plugins')
+require('lsp')
+require('completion')
+require('interface')
+require('format')
