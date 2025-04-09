@@ -98,3 +98,12 @@ for name, config in pairs(lang_servers) do
   config.handlers = handlers
   lspconfig[name].setup(config)
 end
+
+vim.diagnostic.config({
+  virtual_text = true,
+  signs = true,
+  underline = true,
+  update_in_insert = false,
+  severity_sort = true,
+})
+

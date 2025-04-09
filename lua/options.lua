@@ -10,7 +10,6 @@ vim.opt.expandtab = true
 
 -- Mouse support
 vim.opt.mouse = 'a'
-vim.opt.mousemodel = ''
 
 -- List and listchars
 vim.opt.list = true
@@ -24,7 +23,7 @@ vim.g.loaded_netrw = 1
 vim.g.loaded_netrwPlugin = 1
 
 -- Fix clipboard
-vim.api.nvim_set_option("clipboard","unnamedplus")
+vim.api.nvim_set_option("clipboard", "unnamedplus")
 
 -- Automatic formatting
 vim.cmd [[autocmd BufWritePre <buffer> lua vim.lsp.buf.format()]]
